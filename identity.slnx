@@ -4,11 +4,15 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Folder Name="/client/">
+    <Project Path="client/Identity.Client/Identity.Client.csproj" Id="3f4f6834-c0c8-4b62-bb9f-a02d89b31e1d" />
+  </Folder>
   <Folder Name="/src/">
-    <Project Path="src/api/api.csproj" DisplayName="Api" />
-    <Project Path="src/Application/Application.csproj" Id="be127a11-8222-4649-b62a-ebfe8a9779d7" />
-    <Project Path="src/Domain/Domain.csproj" Id="48f0f8f5-0910-46e0-ac0b-d3247fb92a88" />
-    <Project Path="src/Infrastructure/Infrastructure.csproj" Id="9531dd19-0db5-4556-a111-2237d4700f0c" />
+    <Project Path="src/Identity.Api/Identity.Api.csproj" />
+    <Project Path="src/Identity.Application/Identity.Application.csproj" />
+    <Project Path="src/Identity.Contracts/Identity.Contracts.csproj" />
+    <Project Path="src/Identity.Domain/Identity.Domain.csproj" />
+    <Project Path="src/Identity.Infrastructure/Identity.Infrastructure.csproj" />
   </Folder>
   <Folder Name="/test/">
     <Project Path="test/TestProject/TestProject.csproj" />
